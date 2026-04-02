@@ -1,4 +1,4 @@
-# Opdracht 6: ProfileCard Component
+# Opdracht 6: ProfileCard Component.
 
 ## Doel
 Leer je eerste React component testen!
