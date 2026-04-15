@@ -5,7 +5,7 @@ export class ShoppingCart {
   constructor() {
     this.items = [];
   }
-
+x 
   addItem(product, quantity = 1) {
     this.items.push({ ...product, quantity });
   }

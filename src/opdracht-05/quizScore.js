@@ -18,6 +18,7 @@ export function calculatePercentage(answers) {
  */
 export function isPassed(answers) {
   return calculatePercentage(answers) >= 60;
+  
 }
 
 /**
@@ -25,11 +26,11 @@ export function isPassed(answers) {
  */
 export function getGrade(answers) {
   const percentage = calculatePercentage(answers);
-  
+
   if (percentage >= 90) return 'Excellent';
   if (percentage >= 75) return 'Goed';
   if (percentage >= 60) return 'Voldoende';
-  return 'Onvoldoende';
+  if (percentage <= 50) return 'Onvoldoende';
 }
 
 /**
