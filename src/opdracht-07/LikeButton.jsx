@@ -4,6 +4,7 @@ import { useState } from 'react';
  * Een like button component
  */
 function LikeButton({ initialLikes = 0 }) {
+  
   const [likes, setLikes] = useState(initialLikes);
   const [isLiked, setIsLiked] = useState(false);
 
